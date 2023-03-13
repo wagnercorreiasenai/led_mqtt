@@ -18,9 +18,9 @@ EspMQTTClient client
 (
   "wagner_rede", //nome da sua rede Wi-Fi
   "13041968", //senha da sua rede Wi-Fi
-  "test.mosquitto.org",  // MQTT Broker server ip padrão da tago
-  "",   // username
-  "",   // Código do Token DA PLATAFORMA TAGOIO
+  "mqtt.tago.io",  // MQTT Broker server ip padrão da tago
+  "Default",   // username
+  "d16ce843-51dc-4ffa-8157-a98c05ec6641",   // Código do Token DA PLATAFORMA TAGOIO
   "senaiesp001",     // Client name that uniquely identify your device
   1883              // The MQTT port, default to 1883. this line can be omitted
 );
