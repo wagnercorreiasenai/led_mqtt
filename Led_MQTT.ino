@@ -16,11 +16,11 @@ int estadoAtual;       //a leitura atual do pino de entrada
 //configurações da conexão MQTT
 EspMQTTClient client
 (
-  "wagner_rede", //nome da sua rede Wi-Fi
-  "13041968", //senha da sua rede Wi-Fi
+  "FIESC_IOT", //nome da sua rede Wi-Fi
+  "7FuhM4@Io9", //senha da sua rede Wi-Fi
   "mqtt.tago.io",  // MQTT Broker server ip padrão da tago
   "Default",   // username
-  "d16ce843-51dc-4ffa-8157-a98c05ec6641",   // Código do Token DA PLATAFORMA TAGOIO
+  "",   // Código do Token DA PLATAFORMA TAGOIO
   "senaiesp001",     // Client name that uniquely identify your device
   1883              // The MQTT port, default to 1883. this line can be omitted
 );
